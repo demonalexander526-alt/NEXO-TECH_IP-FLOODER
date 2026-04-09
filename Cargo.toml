@@ -1,0 +1,10 @@
+[package]
+name = "nexo-tech-auditor"
+version = "10.0.0"
+authors = ["Nexo-Tech Engineering"]
+edition = "2021"
+description = "Professional High-Performance Network Resilience Auditor"
+
+[dependencies]
+# Required for high-speed asynchronous processing
+tokio = { version = "1", features = ["full"] }
